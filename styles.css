@@ -1,0 +1,29 @@
+
+body { /*Assign a global font family, Change the background color for the body element to a light grey color.*/
+  font-family: Arial, sans-serif;
+  background-color: rgba(209, 208, 208, 0.993)
+}
+
+
+/*this part is not working as expected*/
+h2, p, .readme-wrapper { /*Use a multiple selector rule set to center the text for all h2, p, and a elements.*/
+    
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+}
+
+
+/* This part is complete*/
+a { /*Use an element selector to remove the default underline styles for anchor tags and change the font color.*/
+    text-decoration-line: none;
+    color: rgb(238, 255, 0);
+}
+
+
+/* This part is complete*/
+a:hover { /*cursor changes to a pointer, the font is bold, and text color changes.*/
+    cursor: pointer;
+    font-weight: bold;
+    color: orchid;
+}

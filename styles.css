@@ -5,14 +5,10 @@ body { /*Assign a global font family, Change the background color for the body e
 }
 
 
-/*this part is not working as expected*/
+/*this part is complete*/
 h2, p, .readme-wrapper { /*Use a multiple selector rule set to center the text for all h2, p, and a elements.*/
-    
-    display: flex;
-    align-items: flex-start;
-    align-content: center;
+    text-align: center;
 }
-
 
 /* This part is complete*/
 a { /*Use an element selector to remove the default underline styles for anchor tags and change the font color.*/

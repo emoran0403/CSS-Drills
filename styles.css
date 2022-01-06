@@ -32,6 +32,7 @@ span { /*Wrap a single word in each paragraph element inside of a span element a
 
 /* This part is complete*/
 .boxes { /*add margin, add padding, add a solid border with a custom color, add a border radius to round the edges of the border, add a width of 30em*/
+    /* Change the display to inline-block in your boxes class selector */
     margin: 2em;
     padding: 2em;
     border: .75em;
@@ -39,18 +40,45 @@ span { /*Wrap a single word in each paragraph element inside of a span element a
     border-color: royalblue;
     border-radius: 2em;
     width: 30em;
+    display: inline-block;
 }
 
 /* This part is complete*/
-#box1 { /*Use an id selector to add a unique background color to each div.*/
+/*Use an id selector to add a unique background color to each div.*/
+/* Change the display to block in your boxes class selector */
+/* Change the position of the second box div to be relative to its parent - done and nothing seems to change*/
+#box1 { 
     background-color: rgb(136, 230, 176);
+    display: block;
 }
-#box2 { /*Use an id selector to add a unique background color to each div.*/
+#box2 { 
+    
+    /* Now position the second box div to be to the right of the first - position: relative;    bottom: 15em;  left: 37em;*/
+    /* Adjust your position using any of the top, bottom, left, right properties to get it back to being next to the first div - position: absolute; bottom: 42em; left: 37em;*/
     background-color: rgb(4, 207, 92);
+    /*position: absolute;*/
+    display: block;
+    /*bottom: 42em;
+    left: 37em;*/
 }
-#box3 { /*Use an id selector to add a unique background color to each div.*/
+#box3 { 
     background-color: seagreen;
+    display: block;
 }
-#box4 { /*Use an id selector to add a unique background color to each div.*/
+#box4 { 
     background-color: rgb(49, 66, 56);
+    display: block;
+}
+
+/* This part is complete*/
+/* Give all four of these divs a custom class name they all share. Select that class in your CSS, and add the following properties*/
+/* Use your new knowledge of positioning to get that circle next to the h2 element!*/
+.newclass {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: khaki;
+    position: relative;
+    left: 6em;
+    top: 3em;
 }

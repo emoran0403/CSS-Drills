@@ -1,4 +1,4 @@
-
+/* This part is complete*/
 body { /*Assign a global font family, Change the background color for the body element to a light grey color.*/
   font-family: Arial, sans-serif;
   background-color: rgba(209, 208, 208, 0.993)
@@ -26,4 +26,9 @@ a:hover { /*cursor changes to a pointer, the font is bold, and text color change
     cursor: pointer;
     font-weight: bold;
     color: orchid;
+}
+
+span { /*Wrap a single word in each paragraph element inside of a span element and assign it a new font color and font weight.*/
+    color: teal;
+    font-weight: bold;
 }

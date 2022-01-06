@@ -82,3 +82,52 @@ span { /*Wrap a single word in each paragraph element inside of a span element a
     left: 6em;
     top: 3em;
 }
+
+h1 {
+    color:dodgerblue;
+}
+
+/* This part is not complete*/
+/* Apply styling by class name, have the first 3 h1’s get a new font color (don’t delete or comment out the original styling).
+Once you apply a new font color by class, refresh the page and see what it does */
+.original {
+    color: fuchsia;
+}
+
+/* Do the same thing for the additional 2 h1’s, give them a different font color by class name*/
+.additional {
+    color: indianred;
+}
+
+#show1 {
+    color: rgb(248, 248, 250);
+}
+#show2 {
+    color: rgb(248, 248, 200);
+}
+#show3 {
+    color: rgb(248, 248, 150);
+}
+#show4 {
+    color: rgb(248, 248, 100);
+}
+#show5 {
+    color: rgb(248, 248, 50);
+}
+
+ul { /* Apply styling to all the unordered lists using an element selector changing their font color. */ 
+    color: rgb(142, 40, 238);
+}
+
+.star { /* Apply styling to the class "star" changing the font color.*/ 
+    color: rgb(142, 40, 150);
+}
+ #wars { /* Add the id "wars" to the third unordered list.*/
+    color: rgb(142, 40, 20);
+ }
+
+ .lists { /* Wrap each list in a div, give the div a border that is 2 pixels thick, have it be solid and the color be black.*/
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px;
+ }
